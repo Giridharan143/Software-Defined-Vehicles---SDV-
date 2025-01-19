@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-content
+data:
+  index.html: |
+    <html>
+    <head><title>Welcome to Giri's Website</title></head>
+    <body>
+    Hello Guys !! this is Giridharan Krishnamoorthy, who is an mf, who is currently in an rough patch and hope to recover from it soon and in which, I will get through it soon and I don't want my life to get fucked up anymore and already it is said to be clean deep shitt!!!!
+    </body>
+    </html>
