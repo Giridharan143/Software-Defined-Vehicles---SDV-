@@ -1,6 +1,6 @@
 FROM ubuntu:latest 
 
-RUN echo "Installation complete" \
+RUN echo "Starting installation" \
     && apt-get update \
-    && apt-get install -y thunar\
+    && apt-get install -y nmap \
     && apt-get upgrade -y
